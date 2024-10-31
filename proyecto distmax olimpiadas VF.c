@@ -160,6 +160,7 @@ void guardarDatosEnArchivo(int cantpuntos, Punto puntos[], double max_distancia,
     if (segmento1 != -1 && segmento2 != -1) {
         fprintf(archivo, "El punto (%d,%d) está en el segmento %d\n", punto1.x, punto1.y, segmento1+1);
         fprintf(archivo, "El punto (%d,%d) está en el segmento %d\n", punto2.x, punto2.y, segmento2+1);
+        fprintf(archivo, "Muchas gracias por darme esta oportunidad de explotar mi rendimiento y de poder hacerme volar con la programación\n");
     }
 
     fclose(archivo);
@@ -174,8 +175,7 @@ void verificacionnumerodevertice() {
     printf("seleccione una opcion:\n");
     printf("1. ingresar coordenadas manualmente\n");
     printf("2. cargar coordenadas desde un archivo CSV\n");
-    printf("ingrese su opcion: ");
-    scanf("%d", &opcion);
+    opcion=leerEnteroEntre(OPCION1, OPCION2,"ingrese su opcion: " );
     //desde acá comparamos la eleccion del usuario para saber como realizar la carga de las coordenadas
     if (opcion == 1) {
         cantpuntos = leerEnteroEntre(3, 30, "ingrese la cantidad de puntos (vertices) que tiene el poligono");
