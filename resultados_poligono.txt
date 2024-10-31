@@ -1,0 +1,25 @@
+Datos del polígono:
+Número de puntos: 15
+
+Coordenadas de los puntos:
+Punto 1: (0, 3)
+Punto 2: (2, 2)
+Punto 3: (1, 0)
+Punto 4: (5, 2)
+Punto 5: (6, 1)
+Punto 6: (8, 2)
+Punto 7: (9, 0)
+Punto 8: (10, 4)
+Punto 9: (7, 10)
+Punto 10: (6, 8)
+Punto 11: (4, 5)
+Punto 12: (3, 9)
+Punto 13: (0, 9)
+Punto 14: (1, 6)
+Punto 15: (0, 4)
+
+Resultados:
+La distancia máxima encontrada es: 11.661904
+Se encuentra entre los puntos (1,0) y (7,10)
+El punto (1,0) está en el segmento 2
+El punto (7,10) está en el segmento 8
